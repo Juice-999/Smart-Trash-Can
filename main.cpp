@@ -32,11 +32,7 @@ int count = 0;
 char ssid[50] = "test_network"; // your network SSID (name)
 char pass[50] = "test"; // your network password (use for WPA, or use
 // as key for WEP)
-// Name of the server we want to connect to
-const char kHostname[] = "worldtimeapi.org";
-// Path to download (this is the bit after the hostname in the URL
-// that you want to download
-const char kPath[] = "/api/timezone/Europe/London.txt";
+
 // Number of milliseconds to wait without receiving any data before we give up
 const int kNetworkTimeout = 30 * 1000;
 // Number of milliseconds to wait if no data is available before trying again
